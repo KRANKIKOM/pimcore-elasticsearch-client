@@ -9,7 +9,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^8.3",
-    "pimcore/pimcore": "^12.x",
+    "pimcore/pimcore": "^12.x-dev",
     "elasticsearch/elasticsearch": "^8.0",
     "psr/log": "*"
   },
