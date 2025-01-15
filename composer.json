@@ -16,6 +16,9 @@
   "require-dev": {
     "phpstan/phpstan": "^1.2"
   },
+  "replace": {
+    "pimcore/elasticsearch-client":"1.1"
+  },
   "autoload": {
     "psr-4": {
       "Pimcore\\Bundle\\ElasticsearchClientBundle\\": "src/"
