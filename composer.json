@@ -1,5 +1,5 @@
 {
-  "name": "pimcore/elasticsearch-client",
+  "name": "krankikom/pimcore-elasticsearch-client",
   "license": "GPL-3.0+",
   "type": "symfony-bundle",
   "config": {
@@ -8,13 +8,16 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "require": {
-    "php": "^8.1",
-    "pimcore/pimcore": "^11.5",
+    "php": "^8.3",
+    "pimcore/pimcore": "^12.x-dev",
     "elasticsearch/elasticsearch": "^8.0",
     "psr/log": "*"
   },
   "require-dev": {
     "phpstan/phpstan": "^1.2"
+  },
+  "replace": {
+    "pimcore/elasticsearch-client":"1.1"
   },
   "autoload": {
     "psr-4": {
